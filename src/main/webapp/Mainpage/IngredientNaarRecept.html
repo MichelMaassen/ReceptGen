@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Ingredient naar recept</title>
+    <link rel="stylesheet" href="ReceptToevoegen.css">
+
+
+</head>
+
+<body>
+<ul>
+    <li><a  href="index.html">Home</a></li>
+    <li><a href="Recepten.html">Reizen</a></li>
+    <li><a href="ReceptenToevoegen.html">ReceptenToevoegen</a></li>
+</ul>
+<div class="formContainer">
+    <div class="leftSide">
+        <h1 class="formHeader">Zoek recept op ingredient:</h1>
+        <div class="formContentContainer">
+            <form method="get" id="ingredientForm" target="_top">
+
+
+                <label class= formLabel for="ingredient">Ingredienten (houd ctrl ingedrukt om er meer te selecteren:</label> <br> <br>
+                <select class="formInput" type="text" id="ingredient" name="ingredienten" multiple>
+                    <option value="Courgette">Courgette</option>
+                    <option value="Gehakt">Gehakt</option>
+                    <option value="Feta">Feta</option>
+                    <option value="Ei">Ei</option>
+                    <option value="Ui">Ui</option>
+                    <option value="Pasta">Pasta</option>
+                </select> <br> <br>
+
+
+
+
+
+                <button class="submitButton" type="submit">Zoek</button> <br> <br>
+                <button class="resetButton" type="reset">Reset</button> <br>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

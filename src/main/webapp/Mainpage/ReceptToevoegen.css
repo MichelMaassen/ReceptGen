@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #00fe94, #00fee0);
+    height: 100vh;
+}
+button:hover{
+    background-color: green;
+
+}
+.formContainer {
+    position: relative;
+    margin: 8% auto;
+    min-height: 60%;
+    width: 50%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    background: white;
+    padding: 0px 0px 5px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.formHeader {
+    text-align: center;
+}
+
+.formContentContainer {
+    margin-top: 5%;
+}
+
+.formInput {
+    display: block;
+    margin: 0px 0px 15px 50px;
+    padding: 4px;
+    width: 85%;
+    height: 5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-size: 12px;
+}
+
+.submitButton {
+    background: dodgerblue;
+    color: white;
+    margin: 10px 50px;
+    width: 85%;
+    height: 8%;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.resetButton {
+    background: dodgerblue;
+    color: white;
+    margin: 10px 50px;
+    width: 85%;
+    height: 8%;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+}
