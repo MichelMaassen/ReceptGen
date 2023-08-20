@@ -11,7 +11,7 @@
 <body>
 <ul>
     <li><a  href="index.html">Home</a></li>
-    <li><a href="Recepten.html">Reizen</a></li>
+    <li><a href="Recepten.html">Recepten</a></li>
     <li><a href="ReceptenToevoegen.html">ReceptenToevoegen</a></li>
 </ul>
 <div class="formContainer">
@@ -21,14 +21,15 @@
             <form method="get" id="ingredientForm" target="_top">
 
 
-                <label class= formLabel for="ingredient">Ingredienten (houd ctrl ingedrukt om er meer te selecteren:</label> <br> <br>
-                <select class="formInput" type="text" id="ingredient" name="ingredienten" multiple>
+                <label class= formLabel for="ingredient">Zoek op Ingredient</label> <br> <br>
+                <select class="formInput" type="text" id="ingredient" name="ingredienten" >
                     <option value="Courgette">Courgette</option>
-                    <option value="Gehakt">Gehakt</option>
-                    <option value="Feta">Feta</option>
-                    <option value="Ei">Ei</option>
+                    <option value="Tomaat">Tomaat</option>
+                    <option value="Mayonaise">Mayonaise</option>
                     <option value="Ui">Ui</option>
                     <option value="Pasta">Pasta</option>
+                    <option value="Prei">Prei</option>
+
                 </select> <br> <br>
 
 
@@ -40,6 +41,17 @@
             </form>
         </div>
     </div>
+    <hr>
+    <h2>Resultaten</h2>
+    <div id="results">
+    </div>
+
+    <script src="IngredientNaarRecept.js"> </script>
+
 </div>
+
+<footer>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUQaB5AfW9Oa?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</footer>
 </body>
 </html>
